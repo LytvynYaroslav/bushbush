@@ -1,0 +1,21 @@
+.header, .header .menu {
+  border: 4px black;
+  margin: auto;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 3px; }
+
+.header {
+  height: 80px; }
+  .header .logo {
+    float: left;
+    border: 1px;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    border-color: green; }
+  .header .menu {
+    float: right;
+    padding: 20px; }
+
+/*# sourceMappingURL=practic10.css.map */

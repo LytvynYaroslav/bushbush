@@ -1,0 +1,26 @@
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ img{
+    float:right;
+}
+div{
+    width: 200px;
+    height: 200px;
+    opacity: .5;
+    float: right;
+    margin: 20px;
+    background: aqua;
+}
+p{
+    background-color: aquamarine;
+    width: 400px;
+    float: right;
+}
+float-left{
+    float:left;
+    background: rebeccapurple;
+    width: 200px;
+    height: 200px;
+}

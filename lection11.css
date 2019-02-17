@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.krutvert{
+    position: relative;
+    width: 50px;
+    background-color: pink;
+    border: 1px solid red;
+    height: 50px;
+}
+.krutvert:hover{
+animation: pisos 4s; 
+}
+
+@keyframes pisos{
+    0%{
+        background-color:  green;
+         transform:scale(1) rotate(0);
+    }
+    50%{
+     
+        background-color:  lightblue;
+        transform: scale(3) rotate(720deg);
+    }
+    100%{
+        background-color: green;
+        transform:  scale(1) rotate(0);
+    }
+    }
+/*# sourceMappingURL=lection11.css.map */

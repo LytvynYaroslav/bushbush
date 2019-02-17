@@ -1,0 +1,109 @@
+.container{
+    width: 1100px;
+   
+    margin: auto;
+    
+}
+.green {
+    border: 2px solid green;
+    height: 500px;
+    
+
+}
+.brown1 {
+    border: 2px solid red;
+    height: 20%;
+    margin: 3px;
+}
+.brown2 {
+    border: 2px solid red;
+    height: 10%;
+    margin: 3px;
+    width: 1050px;
+    
+}
+.brown3 {
+    border: 2px solid red;
+    height: 43%;
+    margin: 3px;
+    width: 1075px;
+}
+.brown4 {
+    border: 2px solid red;
+    height: 20%;
+    margin: 3px;
+
+}
+.brown2 div {
+    height: 78%;
+    display: inline-block;
+    
+}
+.brown2 .large{
+    border: 2px solid blue;
+    margin: 3px;
+    width: 329px;
+}
+.brown2 .small{
+    border: 2px solid blue;
+    margin: 3px;
+    width: 170px;
+} 
+
+.brown1 div {
+    height: 90%;
+    display: inline-block;
+    
+}
+
+.brown1 .easy{
+    border: 2px solid blue;
+    margin: 3px;
+    width: 273px;
+} 
+.brown1 .center{
+    border: 2px solid blue;
+    margin: 3px;
+    width: 500px;
+}
+.brown1 .block  {
+    border: 2px solid blue;
+    margin: 3px;
+    width: 273px;
+}
+
+.vertical {
+    margin: 0px;
+    padding: 0px;
+}
+.block div {
+    display: inline-block;
+    
+}
+
+.block .vertical {
+    border: 2px solid yellow;
+
+}
+
+.brown4  div {
+    height: 90%;
+    display: inline-block;
+    
+}
+
+.brown4 .easy{
+    border: 2px solid blue;
+    margin: 3px;
+    width: 273px;
+} 
+.brown4 .center{
+    border: 2px solid blue;
+    margin: 3px;
+    width: 500px;
+}
+.brown4 .block  {
+    border: 2px solid blue;
+    margin: 3px;
+    width: 273px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:400px;
+    width: 425px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: gray;
+    overflow: hidden;
+    position: relative;
+}
+.menu-icon{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.menu-icon:hover{
+    font-size: 32px;
+    color: darkgreen;
+}
+.mobile-menu{
+    width: 320px;
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    top: 0;
+    left:-320px;
+    &__link{
+        text-decoration: none;
+        color:#444;
+        border-bottom: 1px solid #ee88ee;
+        width:80%;
+        text-align: left;
+        padding: 10px;
+    }
+}

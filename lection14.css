@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rozetka{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rozetka .tovary{
+    width: 30%;
+    background-image: url(IMG_1185.JPG);
+    height: 100px;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-size: cover;
+
+}
+.rozetka.hide{
+    display: none;
+}

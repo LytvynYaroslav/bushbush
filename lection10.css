@@ -1,0 +1,24 @@
+.two {
+  background: red;
+  font-family: 'Courier New', Courier, monospace; }
+
+body {
+  font-size: 14px; }
+
+.menu {
+  background-color: #ffffff;
+  transition-property: all;
+  transition-duration: 2s; }
+  .menu .menu-item {
+    font-size: 24px;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  .menu:hover {
+    color: aquamarine; }
+  .menu.blue {
+    color: blue; }
+
+.one, .two {
+  font-size: 20px; }
+
+/*# sourceMappingURL=lection10.css.map */

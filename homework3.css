@@ -1,0 +1,32 @@
+ .accent{
+     color: gold;
+     font-size: 1.5em;
+     font-weight: bold;
+     
+ }
+ 
+.error{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;  
+}
+
+div{
+    border: 1px solid black;
+}
+
+.first{
+    width: 600px;
+    height: 500px;
+}
+
+.second{
+    width: 550px;
+    height:400px;
+}
+
+.third{
+    width: 450px;
+    height: 300px;
+}
+

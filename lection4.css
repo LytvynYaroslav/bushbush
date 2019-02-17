@@ -1,0 +1,62 @@
+.container{
+    width: 1100px;
+   
+    margin: auto;
+    
+}
+.header{
+    background-color: red;
+    
+    padding: 10px;
+
+}
+.main{
+    background-color: yellow;
+    height: 500px;
+    padding: 10px;
+}
+.footer{
+    background-color: green;
+    height:100px;
+}
+.header div{
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    
+}
+.header .logo {
+    width:30%;
+}
+.header .menu{
+    width:66%;
+    padding: 11px;
+    text-align: right;
+}
+.header div {
+    border:1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px; 
+}
+.menu span {
+    border:1px solid black;
+    padding: 5px;
+}
+.main div {
+    border:1px solid black;
+    height:97%;
+    display: inline-block;
+    padding: 5px;
+
+}
+.main .left{
+width:30%;
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+}
+.main .right{
+    width: 67%;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+}

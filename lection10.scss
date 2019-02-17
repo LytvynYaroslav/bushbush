@@ -1,0 +1,45 @@
+$general-color: #ffffff;
+$fz: 14px;
+$fontF: Open-san, san-sef;
+
+@import "variables";
+
+@mixin animation($trProp, $trDur) {
+  transition-property: $trProp;
+  transition-duration: $trDur;  
+}
+
+%three{
+background: red;
+font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-size: 14px;
+}
+
+.menu {
+    background-color: $general-color;
+    @include animation(all, 2s);
+    .menu-item {
+       font-size: $fz+10px;
+        color: aqua;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    &:hover {
+        color: aquamarine;
+    }
+    &.blue {
+        color: blue;
+    }
+}
+.footer {
+
+}
+.one{
+font-size: 20px;
+}
+.two{
+    @extend .one;
+    @extend %three;
+}

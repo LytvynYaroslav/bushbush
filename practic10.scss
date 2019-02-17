@@ -1,0 +1,28 @@
+$br:8px;
+%cont {
+    border: 4px black;
+    
+    margin: auto;
+    width: 100%;
+    border-radius: $br;
+    margin-top: 3px;
+}
+.header{
+    @extend %cont;
+    height: 80px;
+    .logo{
+    float: left;
+    border: 1px;
+    text-align: center;
+    $br:8px;
+    width: 40px;
+    height: 20px;
+    border-color: green;
+    }
+    .menu{
+        float: right;
+        padding: 20px;
+        @extend %cont;
+    }
+
+}

@@ -1,0 +1,47 @@
+.nav{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.kt1{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: solid black;
+    top: 8px;
+
+}
+.kt2{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: solid black;
+    top: 8px;
+
+}
+.kt3{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: solid black;
+    top: 8px;
+
+}
+.box{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    border: solid black;
+    left: 43%;
+    top: 200px;
+}
+hr{
+border:1px solid black;
+}
